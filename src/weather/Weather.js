@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '../card/Card';
+import './Weather.css';
 
 
 
@@ -29,7 +30,6 @@ class Weather extends React.Component {
         <div className='weather'>
             <div className='header'>
                 <h1>Forecast 5 Day</h1>
-                <h5>Yerevan</h5>
             </div>
             <div className='weekday'>
                 { this.formatCards()}
