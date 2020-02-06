@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App_weather from './App';
+import App from './App';
 
-ReactDOM.render(<App_weather />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 
