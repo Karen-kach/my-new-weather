@@ -4,6 +4,7 @@ import './Weather.css';
 
 
 
+
 const weatherURL="https://api.openweathermap.org/data/2.5/forecast?q=Yerevan&lang=us&units=metric&APPID=a9a3a62789de80865407c0452e9d1c27"
 
 class Weather extends React.Component {
@@ -24,7 +25,8 @@ class Weather extends React.Component {
      formatCards = () => {
         return this.state.days.map((day, index) => < Card day={day} key={index} />)
     }
-
+    
+   
     render() {
       return(
         <div className='weather'>
